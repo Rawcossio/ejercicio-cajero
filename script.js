@@ -6,9 +6,23 @@ Condiciones Debe existir una validación de inicio de sesión, solo se podra sal
 del menu si el usuario lo decide
 */
 let usuario='admin'
-let contrasena='admin'
+let contrasena='1234'
+
+function consultarSaldo(){
+    console.log('Su saldo es: ')
+}
+function retirarDinero(){
+    console.log('Hio un retiro por: ')
+}
+function transferirDinero(){
+    console.log('Hizo una transferencia por: ')
+}
+function consignarDinero(){
+    console.log('Hizo una consignacion por: ')
+}
+
 let inputUsuario=prompt('ingrese su usuario: ')
-let inputContrasena
+let inputContrasena=prompt('ingrese su contraseña: ')
 if(usuario==inputUsuario){
     inputContrasena=prompt('ingrese su contraseña: ')
     if(contrasena==inputContrasena){
